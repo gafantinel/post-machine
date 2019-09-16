@@ -73,7 +73,7 @@ while len(fila) > 0:
     
     currentState = currentTransition[2]
     currentExecution+=1
-    print(fila)
+    print(currentTransition,'\t',fila)
     if currentExecution >= int(execution):
         print("Número máximo de execuções atingido.\n")
         exit()
